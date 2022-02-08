@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #6c6c6c;
+    font-size: 14px;
+}
+
+.header {
+    background-color: #f5f5f5;
+}
+
+.container-fluid {
+    padding: 0 98px;
+}
+
+.navbar {
+    padding-top: 63px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu__item {
+    padding: 6px 15px;
+    display: block;
+}
+
+.menu__link {
+    color: #8c8c8c;
+    font-weight: 300;
+}
+
+.menu__search {
+    color: #212121;
+}
+
+.active {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.active > a {
+    color: #212121;
+    font-weight: 700;
+}
+
+.header__title {
+    margin: 0;
+    padding-top: 168px;
+    padding-bottom: 44px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+}
+
+.product-list {
+    padding-top: 70px;
+}
+
+.tab__menu {
+    color: #6c6c6c;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+}
+
+.tab__item {
+    padding-right: 20px;
+}
+
+.tab__product {
+    padding-top: 30px;
+}
+
+.tab__product img {
+    width: 100%;
+    height: auto;
+}
+
+.product__load {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    font-size: 29px;
+    color: #212121;
+}
+
+.product__load > i {
+    padding: 10px;
+}
+
+.product__load > i:hover {
+    border-radius: 50%;
+    background-color: #d8f4fe;
+}
+
+.promo__block {
+    position: relative;
+    padding: 0;
+}
+
+.promo__content {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    width: 60%
+}
+
+.exclusive_image {
+    width: 100%;
+    height: auto;
+}
+
+.content__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title_exclusive {
+    color: #1e88e5;
+}
+
+.promo_h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.button {
+    border: 0;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    height: 46px;
+    border-radius: 23px;
+    background-color: #ffffff;
+    color: #212121;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+}
+.button:hover{
+    background-color: aquamarine;
+    color: #ffffff;
+}
+.button:active{
+    background-color: cadetblue;
+    color: #ffffff;
+}
+.footer {
+    padding-top: 120px;
+    background-color: #f7f7f7;
+}
+
+.mail__input {
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    border-radius: 0;
+    color: #6c6c6c;
+    font-size: 14px;
+}
+
+.mail__send {
+    background-color: #ffffff;
+    color: #6c6c6c;
+    padding: 8px;
+}
+.mail__send:hover {
+    background-color: #6c6c6c;
+    color: #ffffff;
+}
+.mail__send:active {
+    background-color: #212121;
+    color: #ffffff;
+}
+.footer__links {
+    font-weight: 700;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+}
+.bottom_text {
+    padding-top: 60px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact {
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+.contact__info-block {
+    padding: 2%;
+    border: 1px solid #9c9c9c;
+    font-size: 14px;
+    color: #212121;
+    text-align: center;
+}
+.contact__info-block>i {
+    font-size: 5em;
+    padding-bottom: 30px;
+}
+.contact__state {
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contact__PEA {
+    font-size: 2em;
+    font-weight: 700;
+    color: #6c6c6c;
+    margin: 0;
+}
+.contact__info {
+    font-size: 2em;
+    font-weight: 700;
+    color: #212121;
+    margin: 0;
+}
+.bg-transp {
+    background-color: transparent;
+}
